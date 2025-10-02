@@ -1,0 +1,13 @@
+@import 'tailwindcss';
+@import 'tailwindcss-animation-delay/tailwindcss-v4.css';
+@import './css/themes.css';
+@import './css/animations.css';
+
+@layer base {
+  .drag {
+    -webkit-app-region: drag;
+  }
+  .no-drag {
+    -webkit-app-region: no-drag;
+  }
+}
