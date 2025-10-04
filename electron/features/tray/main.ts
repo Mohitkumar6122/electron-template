@@ -33,7 +33,6 @@ const dotIcon = createTrayIcon(rotateCcw, '#FF8A00')
 if (process.platform === 'darwin') {
   logoIcon.setTemplateImage(true)
   maximizeIcon.setTemplateImage(true)
-  logoIconWithNotificationDot.setTemplateImage(true)
 }
 
 // The Tray can only be instantiated after the 'ready' event is fired
